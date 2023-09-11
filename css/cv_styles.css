@@ -10,7 +10,7 @@ h1 {
   margin: 50px auto 0 auto;
   line-height: 2;
   font-size: 5.625rem;
-  font-family: 'Sacramento', cursive;
+  font-family: 'Bunngie Inline', cursive;
 
 }
 
@@ -32,8 +32,15 @@ p {
   line-height: 2;
 }
 
+li {
+  color: #66BFBF;
+  width: 100%;
+  margin: 10px auto 20px;
+}
+
 hr {
-  border: dotted lightgray 6px;
+  /*border: dotted lightgray 6px;*/
+  border: dotted white 6px;
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
@@ -58,18 +65,20 @@ a:hover {
   border: solid 10px;
   padding: 20px;*/
 
-  background-color: #E4F9F5;
+  /*background-color: #E4F9F5;*/
+  background-color: black;
   position: relative;
   padding-top: 100px;
+  padding-bottom: 20px;
 }
 
 .middle-container {
   /*margin-left: 260px;
   height: 200px;
   width: 200px;
-  /*border: solid 20px;
-  background-color: red;*/
-  margin: 100px 0;
+  /*border: solid 20px; */
+  background-color: black;
+  margin: 0px 0;
 
 }
 
@@ -117,14 +126,14 @@ text-align: left;
 
 .top-cloud {
   position: absolute;
-  right: 380px;
+  right: 200px;
   top: 40px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 250px;
-  bottom: 300px;
+  left: 200px;
+  bottom: 150px;
 }
 
 .image-pc1 {
